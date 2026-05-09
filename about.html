@@ -3,27 +3,72 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Learn more about Chimobi's journey into web development and Vibecoding.">
-    <title>About | Chimobi</title>
+    <title>About | Chimobi Chukwunwike - Experienced Digital Specialist</title>
+    <meta name="description" content="Learn about Chimobi Chukwunwike's journey as a UI/UX designer and web developer. 5 years of professional experience in crafting elite digital products.">
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Inter:wght@400;600&display=swap" rel="stylesheet">
 </head>
 <body>
-    <nav class="navbar">
-        <div class="logo">CHIMOBI</div>
-        <ul class="nav-links">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html" class="active">About</a></li>
-            <li><a href="projects.html">Projects</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
+    <div class="bg-glow" aria-hidden="true"></div>
+
+    <main class="content-wrapper">
+        <section aria-labelledby="about-title">
+            <div class="section-label">● ABOUT THE DEVELOPER</div>
+            <h2 id="about-title" class="section-title">MY STORY,<br><span class="accent">MY MISSION</span></h2>
+            <p style="color: var(--text-gray); font-size: 14px; margin-bottom: 30px;">Passionate about crafting meaningful digital experiences that drive real-world business results.</p>
+
+            <article class="glass bio-card">
+                <div class="profile-container">
+                    <div class="badge-float" aria-label="5 years of experience">5<br>YEARS<br>PRO</div>
+                    <img src="me.png" alt="Chimobi Chukwunwike - Professional UI/UX Designer and Developer" class="profile-img">
+                </div>
+                <div class="bio-text">
+                    <p style="color: var(--secondary-blue); font-size: 14px;">Senior Specialist</p>
+                    <h3 style="font-size: 24px;">Chimobi <br>Chukwunwike.</h3>
+                    <hr style="width: 30px; border: 1px solid var(--secondary-blue); margin: 15px 0;">
+                    <p style="color: var(--text-gray); font-size: 13px;">I am a dedicated <strong>UI/UX Designer & Web Developer</strong> specializing in immersive, functional, and visually stunning digital products for the global market.</p>
+                </div>
+                
+                <div class="experience-bar">
+                    <div class="star-icon" aria-hidden="true">★</div>
+                    <p>Over 5 years of experience delivering elite-grade digital solutions, specializing in <strong>UI/UX Research</strong> and <strong>high-performance frontend development</strong>.</p>
+                </div>
+            </article>
+        </section>
+
+        <section aria-labelledby="skills-title" style="margin-top: 40px;">
+            <div id="skills-title" class="section-label">● CORE COMPETENCIES</div>
+            <div class="skills-grid">
+                <article class="glass skill-card">
+                    <div class="icon-circle" aria-hidden="true">🎨</div>
+                    <h4 style="font-size: 13px;">UI/UX Design</h4>
+                    <p style="font-size: 10px; color: var(--text-gray);">Crafting intuitive, user-centered Figma designs.</p>
+                </article>
+                <article class="glass skill-card">
+                    <div class="icon-circle" aria-hidden="true">💻</div>
+                    <h4 style="font-size: 13px;">Web Development</h4>
+                    <p style="font-size: 10px; color: var(--text-gray);">Responsive coding with HTML5, CSS3, and JavaScript.</p>
+                </article>
+                <article class="glass skill-card">
+                    <div class="icon-circle" aria-hidden="true">🖋️</div>
+                    <h4 style="font-size: 13px;">Visual Identity</h4>
+                    <p style="font-size: 10px; color: var(--text-gray);">Developing memorable brand guidelines.</p>
+                </article>
+                <article class="glass skill-card">
+                    <div class="icon-circle" aria-hidden="true">🎯</div>
+                    <h4 style="font-size: 13px;">Digital Strategy</h4>
+                    <p style="font-size: 10px; color: var(--text-gray);">SEO-focused development for business growth.</p>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <nav class="capsule-nav">
+        <a href="index.html" class="nav-item">🏠<span>Home</span></a>
+        <a href="about.html" class="nav-item active">👤<span>About</span></a>
+        <a href="projects.html" class="nav-item">💼<span>Projects</span></a>
+        <a href="contact.html" class="nav-item">✉️<span>Contact</span></a>
     </nav>
-
-    <section class="container">
-        <h2>About Me</h2>
-        <p>I am a programming student focused on mastering HTML, CSS, and JavaScript. I enjoy exploring "Vibecoding"—using AI to bridge the gap between ideas and functional code.</p>
-        <p>My goal is to build clean, mobile-first web applications that provide a seamless user experience.</p>
-    </section>
-
-    <script src="script.js"></script>
+    <script src="main.js"></script>
 </body>
 </html>

@@ -3,41 +3,77 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Explore web development projects built by Chimobi.">
-    <title>Projects | Chimobi</title>
+    <title>Projects | Chukwunwike Chimobi</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Inter:wght@400;600&display=swap" rel="stylesheet">
 </head>
 <body>
-    <nav class="navbar">
-        <div class="logo">CHIMOBI</div>
-        <ul class="nav-links">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="projects.html" class="active">Projects</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
-    </nav>
+    <div class="bg-glow"></div>
 
-    <section class="container">
-        <h2>My Projects</h2>
-        <div class="project-grid">
-            <div class="project-card">
-                <div class="card-header">
-                    <h3>To-Do Web App</h3>
-                    <button class="like-btn" aria-label="Like Project">❤</button>
+    <main class="content-wrapper">
+        <div class="section-label">● MY WORK</div>
+        <h2 class="section-title">FEATURED<br><span class="accent">PROJECTS</span></h2>
+        <p style="color: var(--text-gray); font-size: 14px; margin-bottom: 30px;">A selection of high-impact digital products designed and developed for amazing clients.</p>
+
+        <div class="projects-grid">
+            <div class="glass project-card">
+                <div class="project-thumb">
+                    <span class="project-label" style="background: rgba(239, 68, 68, 0.2); color: #ef4444;">FINTECH UI</span>
                 </div>
-                <p>A functional task manager built with vanilla JavaScript.</p>
+                <div class="project-info">
+                    <div>
+                        <h4>Elite Tech</h4>
+                        <p>Fintech Dashboard UI</p>
+                    </div>
+                    <span>↗</span>
+                </div>
             </div>
-            <div class="project-card">
-                <div class="card-header">
-                    <h3>AI Prompt Helper</h3>
-                    <button class="like-btn" aria-label="Like Project">❤</button>
+            <div class="glass project-card">
+                <div class="project-thumb">
+                    <span class="project-label" style="background: rgba(59, 130, 246, 0.2); color: #3b82f6;">SAAS LANDING</span>
                 </div>
-                <p>A tool designed to help users craft better prompts for AI models.</p>
+                <div class="project-info">
+                    <div>
+                        <h4>Clean SaaS</h4>
+                        <p>SaaS Landing Page</p>
+                    </div>
+                    <span>↗</span>
+                </div>
+            </div>
+            <div class="glass project-card">
+                <div class="project-thumb">
+                    <span class="project-label" style="background: rgba(16, 185, 129, 0.2); color: #10b981;">E-COMMERCE</span>
+                </div>
+                <div class="project-info">
+                    <div>
+                        <h4>Organic Luxury</h4>
+                        <p>E-commerce Website</p>
+                    </div>
+                    <span>↗</span>
+                </div>
+            </div>
+            <div class="glass project-card">
+                <div class="project-thumb">
+                    <span class="project-label" style="background: rgba(168, 85, 247, 0.2); color: #a855f7;">AI PORTFOLIO</span>
+                </div>
+                <div class="project-info">
+                    <div>
+                        <h4>AI Portfolio</h4>
+                        <p>Developer Portfolio</p>
+                    </div>
+                    <span>↗</span>
+                </div>
             </div>
         </div>
-    </section>
+        <p style="text-align: center; color: var(--text-gray); font-size: 11px; margin-top: 30px;">✨ More projects coming soon...</p>
+    </main>
 
-    <script src="script.js"></script>
+    <nav class="capsule-nav">
+        <a href="index.html" class="nav-item">🏠<span>Home</span></a>
+        <a href="about.html" class="nav-item">👤<span>About</span></a>
+        <a href="projects.html" class="nav-item active">💼<span>Projects</span></a>
+        <a href="contact.html" class="nav-item">✉️<span>Contact</span></a>
+    </nav>
+    <script src="main.js"></script>
 </body>
 </html>
